@@ -208,6 +208,11 @@ main .enquiry-button:not(.catering-enquiry-button) {
   padding: 1rem;
 }
 
+.business-line-ta-prefix {
+  color: #5a5a5a;
+  font-size: 0.85em;
+}
+
 .business-line a:hover,
 .business-line-icon:hover {
   transform: scale(1.05);
@@ -1073,6 +1078,20 @@ footer {
   gap: 2.5rem;
 }
 
+.footer-trading-as {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  color: #e0e0e0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.footer-ta-prefix {
+  color: #bfc7b2;
+  font-size: 0.86em;
+}
+
 .footer-contact {
   display: flex;
   align-items: center;
@@ -1548,6 +1567,11 @@ body.nav-menu-open .hamburger-bar:nth-child(3) {
 
   .footer-contact-container {
     justify-content: center;
+  }
+
+  .footer-trading-as {
+    width: 100%;
+    align-items: center;
   }
 }
 
