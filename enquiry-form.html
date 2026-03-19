@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Enquiry Form</title>
+    <link rel="stylesheet" href="./enquiry-form.css">
+</head>
+
+<body>
+    <div class="enquiry-form-page">
+        <button type="button" id="close-enquiry-form" class="close-enquiry-btn" aria-label="Close form">×</button>
+
+        <div class="enquiry-form-card">
+            <div class="enquiry-form-card-inner">
+                <img src="./Images/PF-logo-Color/pfLogo_L.png" class="enquiry-form-logo" alt="Punkfrog logo">
+
+                <form class="enquiry-form" method="post">
+                    <div class="form-field">
+                        <label for="name">Name</label>
+                        <span class="input-wrapper">
+                            <span class="input-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                                    <circle cx="12" cy="7" r="4" />
+                                </svg>
+                            </span>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <span class="input-wrapper">
+                            <span class="input-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </span>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="subject">Subject</label>
+                        <span class="input-wrapper">
+                            <span class="input-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                                </svg>
+                            </span>
+                            <input type="text" id="subject" name="subject" placeholder="What is this regarding?">
+                        </span>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us more about your enquiry..." rows="4"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="enquiry-send-btn">
+                        <svg class="send-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <line x1="22" y1="2" x2="11" y2="13" />
+                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                        </svg>
+                        <span>Send</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

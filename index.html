@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punkfrog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- ========================================== Hero Section ========================================== -->
+    <header id="hero-section">
+        <div class="hero-top-row">
+            <img src="./Images/PF-logo-Color/pfLogo_XL.png" class="logo" alt="Punkfrog logo">
+        </div>
+        <nav class="business-lines-container" id="main-nav-menu" aria-label="Main business areas">
+            <ul>
+                <li class="business-line">
+                    <a href="#tech-services-section">
+                        <img src="./Images/business-lines-icons/technical-service.png" class="business-line-icon"
+                            alt="Technical Services">
+                        <span>Technical Services</span></a>
+                </li>
+                <li class="business-line">
+                    <a href="#business-consulting-section">
+                        <img src="./Images/business-lines-icons/consulting.png" class="business-line-icon"
+                            alt="Business Consulting">
+                        <span>Business Consulting</span></a>
+                </li>
+
+                <li class="business-line">
+                    <a href="#production-section">
+                        <img src="./Images/business-lines-icons/pf-production.png" class="business-line-icon"
+                            alt="Production">
+                        <span>Punkfrog Productions</span></a>
+                </li>
+
+                <li class="business-line">
+                    <a href="#catering-section">
+                        <img src="./Images/business-lines-icons/catering.png" class="business-line-icon" alt="Catering">
+                        <span>Celebes Catering</span></a>
+                </li>
+
+            </ul>
+        </nav>
+
+
+        <!-- <button type="button" class="enquiry-button" aria-controls="enquiry-form">
+            <img src="./Images/Enquiry-button-icon.svg" class="enquiry-button-icon" alt="Enquiry button icon">
+            <span>Enquiry</span>
+        </button> -->
+
+    </header>
+
+
+    <button type="button" class="hamburger-button" id="hamburger-button" aria-label="Open menu" aria-expanded="false"
+        aria-controls="hamburger-menu-panel">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+    </button>
+    <div class="hamburger-menu-panel" id="hamburger-menu-panel" aria-hidden="true">
+        <ul>
+            <li><a href="#tech-services-section">Technical Services</a></li>
+            <li><a href="#business-consulting-section">Business Consulting</a></li>
+            <li><a href="#production-section">Punkfrog Productions</a></li>
+            <li><a href="#catering-section">Celebes Catering</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Vector wave separator: hero → technical services -->
+    <div class="wave-separator-1" aria-hidden="true">
+        <svg class="wave-separator-shape-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1341 77" fill="none"
+            preserveAspectRatio="none" aria-hidden="true">
+            <path
+                d="M0 16.1385C335.25 -39.7669 670.5 72.0439 1005.75 16.1385C1173.38 -11.8142 1257.19 2.16215 1341 16.1385V99.9966H0V16.1385Z"
+                fill="#D2DCB6" />
+        </svg>
+    </div>
+
+    <main>
+        <!-- ====================================== Technical Services section ====================================== -->
+        <section id="tech-services-section">
+            <div class="section-title-container">
+                <h2>Technical Services</h2>
+                <img src="./Images/section-title-underline.svg" class="section-underline" alt="Section title underline">
+                <p class="section-description">Senior experts with long, international experience in their domains.<br>
+                    We offer consultancy, as well as a range of attractive services.<br>
+
+                </p>
+            </div>
+            <!-- Technical services content container -->
+            <div class="tech-services-content-container">
+
+                <li>
+                    <div class="tech-service-icon-container" aria-label="Erlang">
+                        <img src="./Images/Tec-service-icons/erlang-logo.png" alt="Erlang logo">
+                        <span>Erlang</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="tech-service-icon-container" aria-label="Rabbit MQ">
+                        <img src="./Images/Tec-service-icons/rabbitMQ-logo.png" alt="Rabbit MQ logo">
+                        <span>RabbitMQ</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="tech-service-icon-container" aria-label="Elixir">
+                        <img src="./Images/Tec-service-icons/Elixir-logo.png" alt="Elixir logo">
+                        <span>Elixir</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="tech-service-icon-container" aria-label="Riak">
+                        <img src="./Images/Tec-service-icons/riak-logo.png" alt="Riak logo">
+                        <span>Riak</span>
+                    </div>
+                </li>
+            </div>
+
+            <!-- <button type="button" class="enquiry-button" aria-controls="enquiry-form">
+                <img src="./Images/Enquiry-button-icon.svg" class="enquiry-button-icon" alt="Enquiry button icon">
+                <span>Enquiry</span>
+            </button> -->
+
+        </section>
+
+        <!-- Vector wave separator: tech services → business consulting -->
+        <div class="wave-separator-2" aria-hidden="true">
+            <svg class="wave-separator-shape-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1341 99" fill="none"
+                preserveAspectRatio="none" aria-hidden="true">
+                <path
+                    d="M0 0C268.2 54.9432 536.4 -32.9659 804.6 21.9773C1072.8 76.9205 1206.9 -10.9886 1341 32.9659V98.8977H0V0Z"
+                    fill="#A1BC98" />
+            </svg>
+        </div>
+
+        <!-- ====================================== Business Consulting section ======================================= -->
+        <section id="business-consulting-section">
+            <div class="section-title-container">
+                <h2>Business Consulting</h2>
+                <img src="./Images/section-title-underline.svg" class="section-underline" alt="Section title underline">
+                <p class="section-description">Together with an international network of partners, we provide a full
+                    range of business<br>consulting services and coaching based on decades of personal experience and
+                    insight.</p>
+            </div>
+
+            <div class="business-consulting-layout">
+                <div class="business-consulting-content-container">
+                    <li class="consulting-item" data-panel-title="Product & Market Strategy" data-panel-items="Validating product & market viability before investment.
+                        |Aligning your product and market strategies.
+                        |Strategic planning aligned with corporate goals.
+">
+                        <div class="business-consulting-icon">
+                            <div class="business-consulting-icon-box">
+                                <img src="./Images/Business-consulting-icons/Product-Market-strategy.svg"
+                                    alt="Product & Market Strategy">
+                            </div>
+                            <span>Product & Market Strategy</span>
+                        </div>
+                    </li>
+                    <li class="consulting-item" data-panel-title="Business Analysis" data-panel-items="Defining requirements and modelling the solution aided by business acumen and experience.
+
+                        |Solution Modelling using Model-Based Software Engineering (MBSE) and Computer-Aided Software Engineering (CASE).
+                        |Agile product ownership and management, or transitioning to SAFe.
+                        ">
+                        <div class="business-consulting-icon">
+                            <div class="business-consulting-icon-box">
+                                <img src="./Images/Business-consulting-icons/Business-analysis.svg"
+                                    alt="Business Analysis">
+                            </div>
+                            <span>Business Analysis</span>
+                        </div>
+                    </li>
+                    <li class="consulting-item" data-panel-title="Sales & Business Development" data-panel-items="International sales executive - greenfield or expansion.
+                    |Designing an efficient sales process supported by CRM.
+                    |Setting an effective sales strategy.
+                   
+                    ">
+                        <div class="business-consulting-icon">
+                            <div class="business-consulting-icon-box">
+                                <img src="./Images/Business-consulting-icons/sales-bd.svg" alt="Sales & BD">
+                            </div>
+                            <span class="consulting-label-center">Sales & Business Development</span>
+                        </div>
+                    </li>
+                    <li class="consulting-item" data-panel-title="Project Management" data-panel-items="Project rescue – getting back on track, if that is possible and feasible.
+                        |Managing difficult projects with a focus on mitigating risk.
+                        |Software projects can be delivered on time, and within budget!
+                        
+                        ">
+                        <div class="business-consulting-icon">
+                            <div class="business-consulting-icon-box">
+                                <img src="./Images/Business-consulting-icons/project-management.svg"
+                                    alt="Project Management">
+                            </div>
+                            <span>Project Management</span>
+                        </div>
+                    </li>
+                    <li class="consulting-item" data-panel-title="Business Communications" data-panel-items="Swedish/English translations – technical, contractual, or business.
+
+                        |Transforming complicated documents into clear, structured communication.
+                        |Aligning market messaging with product strategy.
+                        ">
+                        <div class="business-consulting-icon">
+                            <div class="business-consulting-icon-box">
+                                <img src="./Images/Business-consulting-icons/business-communications.svg"
+                                    alt="Business Communication">
+                            </div>
+                            <span>Business Communication</span>
+                        </div>
+                    </li>
+                    <li class="consulting-item" data-panel-title="Continuous Improvement" data-panel-items="Establishing a continuous improvement cycle - workshop & coaching.
+                    |Creating an effective meeting culture.
+                    |Setting metrics to promote the right behaviour for achieving strategic goals.
+                    
+                     ">
+                        <div class="business-consulting-icon">
+                            <div class="business-consulting-icon-box">
+                                <img src="./Images/Business-consulting-icons/contineous-improvment.svg"
+                                    alt="Continuous Improvement">
+                            </div>
+                            <span>Continuous Improvement</span>
+                        </div>
+                    </li>
+                </div>
+
+                <aside class="business-consulting-detail-panel" id="consulting-detail-panel" aria-hidden="true">
+                    <button type="button" class="panel-close-btn" id="consulting-panel-close"
+                        aria-label="Close panel">×</button>
+                    <h3 class="consulting-panel-title" id="consulting-panel-title"></h3>
+                    <ul class="consulting-panel-list" id="consulting-panel-list"></ul>
+                </aside>
+            </div>
+
+            <!-- Practical Frameworks and Guides (expandable) -->
+            <div class="frameworks-wrapper" id="frameworks-wrapper">
+                <button type="button" class="frameworks-trigger" id="frameworks-trigger" aria-expanded="false"
+                    aria-controls="frameworks-content" aria-label="Show frameworks table">
+                    <span class="frameworks-trigger-text">Frameworks & Templates</span>
+                    <span class="frameworks-trigger-icon" aria-hidden="true">▼</span>
+                </button>
+                <p class="frameworks-subline">Practical guides & working templates you can read, download, and apply.
+                </p>
+
+                <div class="frameworks-content" id="frameworks-content" aria-hidden="true">
+                    <div class="frameworks-table-wrap" role="region" aria-label="Frameworks overview">
+                        <table class="frameworks-table">
+                            <tbody>
+                                <!-- Section 1: Understanding Value -->
+                                <tr class="frameworks-section-header">
+                                    <th scope="col" class="frameworks-header-num">1</th>
+                                    <th scope="col" colspan="2" class="frameworks-header-text">
+                                        <span class="frameworks-header-title">Understanding Value</span>
+                                        <span class="frameworks-header-desc">Frameworks for clarifying markets,
+                                            strategy, and what truly matters before acting</span>
+                                    </th>
+                                    <th scope="col" class="frameworks-view-header">View & Download</th>
+                                    <th scope="col" class="frameworks-download-header" class="download-column">Download
+                                    </th>
+                                </tr>
+                                <tr id="framework-1-1" class="frameworks-row frameworks-row-highlight">
+                                    <td class="frameworks-id">1-1</td>
+                                    <td class="frameworks-name">Market Value Chains™</td>
+                                    <td class="frameworks-desc">A strategic framework for
+                                        product and market alignment.</td>
+                                    <td class="frameworks-view"><a href="./framework-pdfs/PFWP Market Value Chains.pdf"
+                                            alt="Market Value Chains™ PDF" target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link">PDF</a></td>
+                                    <td class="frameworks-download"></td>
+                                </tr>
+                                <tr id="framework-1-2" class="frameworks-row">
+                                    <td class="frameworks-id">1-2</td>
+                                    <td class="frameworks-name">NewBiz™</td>
+                                    <td class="frameworks-desc">A discipline for validating product & market viability
+                                        before investment.</td>
+                                    <td class="frameworks-view"><a href="./framework-pdfs/PFWP NewBiz.pdf"
+                                            alt="NewBiz™ PDF" target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link">PDF</a></td>
+                                    <td class="frameworks-download"></td>
+                                </tr>
+                                <!-- Section 2: Understanding Behaviour -->
+                                <tr class="frameworks-section-header">
+                                    <th scope="col" class="frameworks-header-num">2</th>
+                                    <th scope="col" colspan="2" class="frameworks-header-text">
+                                        <span class="frameworks-header-title">Understanding Behaviour</span>
+                                        <span class="frameworks-header-desc">How people, incentives, and organisational
+                                            dynamics shape outcomes</span>
+                                    </th>
+                                    <th scope="col" class="frameworks-view-header">View & Download</th>
+                                    <th scope="col" class="frameworks-download-header" class="download-column">Download
+                                    </th>
+                                </tr>
+                                <tr id="framework-2-1" class="frameworks-row frameworks-row-highlight">
+                                    <td class="frameworks-id">2-1</td>
+                                    <td class="frameworks-name">Creathorn's Law™</td>
+                                    <td class="frameworks-desc">Metrics shape behaviour to achieve goals.
+
+                                    </td>
+                                    <td class="frameworks-view"><a href="./framework-pdfs/PFWP Creathorn's Law.pdf"
+                                            alt="Creathorn's Law™ PDF" target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link">PDF</a></td>
+                                    <td class="frameworks-download"></td>
+                                </tr>
+                                <tr id="framework-2-2" class="frameworks-row">
+                                    <td class="frameworks-id">2-2</td>
+                                    <td class="frameworks-name">Effective Meeting Culture</td>
+                                    <td class="frameworks-desc">Structuring meetings to produce decisions, alignment,
+                                        and action.
+                                    </td>
+                                    <td class="frameworks-view"></td>
+                                    <td class="frameworks-download"></td>
+                                </tr>
+                                <!-- Section 3: Designing Execution -->
+                                <tr class="frameworks-section-header">
+                                    <th scope="col" class="frameworks-header-num">3</th>
+                                    <th scope="col" colspan="2" class="frameworks-header-text">
+                                        <span class="frameworks-header-title">Designing Execution</span>
+                                        <span class="frameworks-header-desc">Structured systems that translate insight
+                                            into action</span>
+                                    </th>
+                                    <th scope="col" class="frameworks-view-header">View & Download</th>
+                                    <th scope="col" class="frameworks-download-header" class="download-column">Download
+                                    </th>
+                                </tr>
+                                <tr id="framework-3-1" class="frameworks-row frameworks-row-highlight">
+                                    <td class="frameworks-id">3-1</td>
+                                    <td class="frameworks-name">Performance Metric Framework™</td>
+                                    <td class="frameworks-desc">A behaviour-first approach to
+                                        performance metrics.</td>
+                                    <td class="frameworks-view"><a href="./framework-pdfs/PFWP Metric Framework.pdf"
+                                            alt="Performance Metric Framework™ PDF" target="_blank"
+                                            rel="noopener noreferrer" class="frameworks-download-link">PDF</a></td>
+                                    <td class="frameworks-download"></td>
+                                </tr>
+                                <tr id="framework-3-2" class="frameworks-row">
+                                    <td class="frameworks-id">3-2</td>
+                                    <td class="frameworks-name">Punkfrog Sales Process™</td>
+                                    <td class="frameworks-desc">A structured funnel process for effective and efficient
+                                        sales execution.
+                                    </td>
+                                    <td class="frameworks-view"><a href="./framework-pdfs/PFWP Sales Process.pdf"
+                                            alt="Punkfrog Sales Process™ PDF" target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link">PDF</a></td>
+                                    <td class="frameworks-download"></td>
+                                </tr>
+                                <tr id="framework-3-3" class="frameworks-row">
+                                    <td class="frameworks-id">3-3</td>
+                                    <td class="frameworks-name">BRISK Analysis™</td>
+                                    <td class="frameworks-desc">A rapid Brief Risk template for identifying and
+                                        assessing key risks.
+                                    </td>
+                                    <td class="frameworks-view">
+                                        <a href="./framework-pdfs/PFWP BRISK.pdf" alt="BRISK Analysis™ PDF"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link">PDF</a>
+                                        <a href="./framework-pdfs/PFWP BRISK.xlsx" alt="BRISK Analysis™ XLSX"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link download-link-template-mobile">Template</a>
+                                    </td>
+                                    <td class="frameworks-download">
+                                        <a href="./framework-pdfs/PFWP BRISK.xlsx" alt="BRISK Analysis™ XLSX"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link download-link-template">Template</a>
+                                    </td>
+                                </tr>
+                                <!-- Section 4: Practical Tools -->
+                                <tr class="frameworks-section-header">
+                                    <th scope="col" class="frameworks-header-num">4</th>
+                                    <th scope="col" colspan="2" class="frameworks-header-text">
+                                        <span class="frameworks-header-title">Practical Tools</span>
+                                        <span class="frameworks-header-desc">Templates and tools for day-to-day
+                                            execution</span>
+                                    </th>
+                                    <th scope="col" class="frameworks-view-header">View & Download</th>
+                                    <th scope="col" class="frameworks-download-header" class="download-column">Download
+                                    </th>
+                                </tr>
+                                <tr id="framework-4-1" class="frameworks-row">
+                                    <td class="frameworks-id">4-1</td>
+                                    <td class="frameworks-name">Action log</td>
+                                    <td class="frameworks-desc">An effective tool for tracking commitments and actions.
+                                    </td>
+                                    <td class="frameworks-view">
+                                        <a href="./framework-pdfs/PFWP Action Log.pdf" alt="Action log PDF"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link">PDF</a>
+                                        <a href="./framework-pdfs/PFWP Action Log.xlsx" alt="Action log XLSX"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link download-link-template-mobile">Template</a>
+                                    </td>
+                                    <td class="frameworks-download">
+                                        <a href="./framework-pdfs/PFWP Action Log.xlsx" alt="Action log XLSX"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link download-link-template">Template</a>
+                                    </td>
+                                </tr>
+                                <tr id="framework-4-2" class="frameworks-row">
+                                    <td class="frameworks-id">4-2</td>
+                                    <td class="frameworks-name">Sales QREF™</td>
+                                    <td class="frameworks-desc">A concise quick-reference of essential sales
+                                        information.
+                                    </td>
+                                    <td class="frameworks-view"><a href="./framework-pdfs/PFWP Sales QREF.pdf"
+                                            alt="Sales QREF™ PDF" target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link">PDF</a></td>
+                                    <td class="frameworks-download"></td>
+                                </tr>
+                                <tr id="framework-4-3" class="frameworks-row">
+                                    <td class="frameworks-id">4-3</td>
+                                    <td class="frameworks-name">Responsibility chart (RACI)</td>
+                                    <td class="frameworks-desc">A clear framework for assigning roles and
+                                        accountability.
+                                    </td>
+                                    <td class="frameworks-view">
+                                        <a href="./framework-pdfs/PFWP RACI.pdf" alt="RACI PDF" target="_blank"
+                                            rel="noopener noreferrer" class="frameworks-download-link">PDF</a>
+                                        <a href="./framework-pdfs/PFWP RACI.xlsx" alt="RACI XLSX" target="_blank"
+                                            rel="noopener noreferrer"
+                                            class="frameworks-download-link download-link-template-mobile">Template</a>
+                                    </td>
+                                    <td class="frameworks-download">
+                                        <a href="./framework-pdfs/PFWP RACI.xlsx" alt="RACI XLSX" target="_blank"
+                                            rel="noopener noreferrer"
+                                            class="frameworks-download-link download-link-template">Template</a>
+                                    </td>
+                                </tr>
+                                <tr id="framework-4-4" class="frameworks-row">
+                                    <td class="frameworks-id">4-4</td>
+                                    <td class="frameworks-name">Annual Plan</td>
+                                    <td class="frameworks-desc">A template for co-ordinating key events, commitments,
+                                        and interactions across a company.</td>
+                                    <td class="frameworks-view">
+                                        <a href="./framework-pdfs/PFWP Annual Plan.pdf" alt="Annual Plan PDF"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link">PDF</a>
+                                        <a href="./framework-pdfs/PFWP Annual Plan.xlsx" alt="Annual Plan XLSX"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link download-link-template-mobile">Template</a>
+                                    </td>
+                                    <td class="frameworks-download">
+                                        <a href="./framework-pdfs/PFWP Annual Plan.xlsx" alt="Annual Plan XLSX"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="frameworks-download-link download-link-template">Template</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- <button type="button" class="enquiry-button" aria-controls="enquiry-form">
+                <img src="./Images/Enquiry-button-icon.svg" class="enquiry-button-icon" alt="Enquiry button icon">
+                <span>Enquiry</span>
+            </button> -->
+        </section>
+
+
+
+        <!-- Vector wave separator: business consulting → production -->
+        <div class="wave-separator-3" aria-hidden="true">
+            <svg class="wave-separator-shape-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1341 80" fill="none"
+                preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0 40C223.5 -20 447 60 670.5 20C894 -20 1117.5 60 1341 0V80H0V40Z" fill="#778873" />
+            </svg>
+        </div>
+
+        <!-- ========================================= Production section ========================================= -->
+        <section id="production-section">
+            <div class="section-title-container">
+                <h2><span class="production-title-brand">Punkfrog</span> Productions</h2>
+                <img src="./Images/section-title-underline.svg" class="section-underline" alt="Section title underline">
+                <p class="section-description">Providing specific areas of entertainment, as well as event organization.
+                </p>
+            </div>
+
+            <div class="production-layout">
+                <div class="production-content-container">
+                    <li>
+                        <div class="production-content production-item" data-production-title="Norman Levene"
+                            data-production-description="Norman is a seasoned professional with 20 years' international experience as a piano entertainer. 
+                            His popular repertoire covers blues, rock, pop, ballads, and jazz standards."
+                            data-production-link="https://www.normanlevene.com"
+                            data-production-link-label="See his performance showreel at:">
+                            <img src="./Images/Production-pictures/Piano-photo.jpg" alt="A piano player">
+                            <span>Piano Entertainer</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="production-content production-content--jan production-item"
+                            data-production-title="Jan Olsson" data-production-subtitle="Police Superintendent / Operations Developer
+National Operative Police Authority (NOA)
+SC3 (Swedish Cybercrime Centre) / National IT-Crime Centre" data-production-description="Jan has worked as a police officer for more than 30 years, including 15 years with internet-related crime. He is a national expert on fraud, and helped start the National Fraud Centre in Sweden. His emphasis on cross-border co-operation has led to international participation with Interpol, Europol, Enisa, and most PPP organisations in Europe. He sits on the board of ECCFI and the MRC LE commission.
+
+In Europe. North America, Jan is a popular speaker and panel debater delivering his unique insights into the technical and human aspects of cybercrime, fraud, cybersecurity, and the consequences of digitalisation — with the focus being on prevention. 
+In 2022, he was awarded &quot;Security Profile of the Year&quot;.">
+                            <img src="./Images/Production-pictures/jan_olsson.jpg"
+                                alt="Jan Olsson, cybersecurity speaker">
+                            <span>Cybersecurity Speaker</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="production-content production-item" data-production-description="Wayland plays traditional folk music from England, Scotland, Ireland & Australia at intimate venues and private parties.
+                             
+                        He also covers popular music from 1950s to 1970s … and occasionally this century!">
+                            <img src="./Images/Production-pictures/Wayland-handbill.png" alt="Wayland the Bard">
+                            <span>Troubadour</span>
+                        </div>
+                    </li>
+                </div>
+
+                <aside class="production-detail-panel" id="production-detail-panel" aria-hidden="true">
+                    <button type="button" class="panel-close-btn" id="production-panel-close"
+                        aria-label="Close panel">×</button>
+                    <div class="production-panel-left">
+                        <img class="production-panel-img" id="production-panel-img" src="" alt="">
+                        <h3 class="production-panel-title" id="production-panel-title"></h3>
+                    </div>
+                    <div class="production-panel-right">
+                        <p class="production-panel-subtitle" id="production-panel-subtitle" aria-hidden="true"></p>
+                        <p class="production-panel-description" id="production-panel-description"></p>
+                        <p class="production-panel-link-wrap" id="production-panel-link-wrap">
+                            <a class="production-panel-link" id="production-panel-link" href="" target="_blank"
+                                rel="noopener noreferrer"></a>
+                        </p>
+                    </div>
+                </aside>
+            </div>
+
+            <!-- <button type="button" class="enquiry-button" aria-controls="enquiry-form">
+                <img src="./Images/Enquiry-button-icon.svg" class="enquiry-button-icon" alt="Enquiry button icon">
+                <span>Enquiry</span>
+            </button> -->
+        </section>
+
+        <!-- Vector wave separator: production → catering -->
+        <div class="wave-separator-4" aria-hidden="true">
+            <svg class="wave-separator-shape-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1341 60" fill="none"
+                preserveAspectRatio="none" aria-hidden="true">
+                <path
+                    d="M0 53.8893C111.75 35.9262 223.5 71.8524 335.25 53.8893C447 35.9262 558.75 71.8524 670.5 53.8893C782.25 35.9262 894 71.8524 1005.75 53.8893C1117.5 35.9262 1229.25 71.8524 1341 53.8893V0H0V53.8893Z"
+                    fill="#778873" />
+            </svg>
+        </div>
+        <!-- ========================================== Catering section ========================================= -->
+        <section id="catering-section">
+            <div class="catering-section-inner">
+                <div class="section-title-container catering-title-container">
+                    <h2 class="catering-headline"> <span class="catering-headline"> Celebes Catering</span></h2>
+                    <img src="./Images/section-title-underline.svg" class="section-underline catering-underline" alt="">
+                    <p class="catering-tagline" class="section-description">Spice up your next party or event with
+                        gourmet Indonesian cuisine. Authentic, home-made food prepared using only premium-quality, fresh
+                        ingredients.</p>
+                    <p class="catering-tagline">Pies, wraps, takeaway delivered, catered private dinners.</p>
+                    <!-- <button type="button" class="enquiry-button catering-enquiry-button" aria-controls="enquiry-form">
+                        <img src="./Images/Enquiry-button-icon.svg" class="enquiry-button-icon"
+                            alt="Enquiry button icon">
+                        <span>Enquiry</span>
+                    </button> -->
+                </div>
+
+                <!-- Food carousel -->
+                <div class="food-carousel-wrapper food-carousel-container" aria-label="Food gallery">
+                    <div class="food-carousel-track food-carousel-top-line">
+                        <div class="food-carousel-track-inner">
+                            <div class="food-carousel-item">
+                                <img src="./CC Images/no 1 Ayam woku 2.jpg" alt="Ayam woku">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name">Ayam woku</span>
+                                    <span class="caption-translation">Chili chicken</span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="./CC Images/no 2 Ayam woku.jpg" alt="Ayam woku">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name">Ayam woku</span>
+                                    <span class="caption-translation">Chili chicken</span>
+                                </span>
+                            </div>
+
+                            <div class="food-carousel-item">
+                                <img src="./CC Images/no 4 Beef rendang.jpg" alt="Beef rendang">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name">Beef rendang</span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="./CC Images/no 5 Kue ubi.jpg" alt="Kue ubi">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name">Kue ubi</span>
+                                    <span class="caption-translation">Yam cake</span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="./CC Images/no 6 Perkedel.jpg" alt="Perkedel">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name">Perkedel</span>
+                                    <span class="caption-translation">Beef & potato croquettes
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="./CC Images/no 7 Ayam tempeh.jpg" alt="Ayam tempeh">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name">Ayam tempeh</span>
+                                    <span class="caption-translation">Chicken & fermented soybean</span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="./CC Images/no 8 Bones.jpg" alt="Bones">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name">Bones</span>
+                                    <span class="caption-translation">Braised beef bones</span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="./CC Images/no 9 Nasi goreng.jpg" alt="Nasi goreng">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name">Nasi goreng</span>
+                                    <span class="caption-translation">Indonesian fried rice</span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="./CC Images/no 10 Prep1.jpg" alt="Picture of preparation ingredients">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name">Fresh ingredients</span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="./CC Images/no 12 Prep3.jpg" alt="Another picture of preparation ingredients">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name">Fresh ingredients</span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="food-carousel-track food-carousel-bottom-line">
+                        <div class="food-carousel-track-inner">
+                            <div class="food-carousel-item">
+                                <img src="" alt="">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name"></span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="" alt="">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name"></span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="" alt="">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name"></span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="" alt="">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name"></span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="" alt="">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name"></span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="" alt="">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name"></span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="" alt="">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name"></span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="" alt="">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name"></span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="" alt="">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name"></span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+                            <div class="food-carousel-item">
+                                <img src="" alt="">
+                                <span class="food-carousel-caption" aria-hidden="true">
+                                    <span class="caption-name"></span>
+                                    <span class="caption-translation"></span>
+                                </span>
+                            </div>
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Vector wave separator: catering → footer -->
+    <div class="wave-separator-5" aria-hidden="true">
+        <svg class="wave-separator-shape-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1342 42" fill="none"
+            preserveAspectRatio="none" aria-hidden="true">
+            <path
+                d="M0 20.8723C223.667 -10.4361 447.333 31.3084 671 10.4361C894.667 -10.4361 1118.33 31.3084 1342 0V41.7445H0V20.8723Z"
+                fill="#717863" />
+        </svg>
+    </div>
+
+    <!-- ========================================== Footer section ========================================== -->
+    <footer id="footer" class="footer-section">
+        <section class="footer-content-container">
+            <div class="footer-brand">
+                <a href="#hero-section"><img src="./Images/PF-logo-Color/pfLogo_L.png" class="footer-logo"
+                        alt="Punkfrog logo"></a>
+                <p class="footer-enquiry-text">Want to know more? Please contact us at<br><span
+                        class="email-link">enquiry@punkfrog.se</span></p>
+            </div>
+
+            <div class="footer-contact-container">
+                <div class="footer-contact">
+                    <div class="footer-contact-icon-box">
+                        <img src="./Images/footer-icon/locaion-icon.svg" class="footer-contact-icon" alt="Location">
+                    </div>
+                    <span class="footer-contact-text">Stockholm, Sweden</span>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-contact-icon-box">
+                        <img src="./Images/footer-icon/business-reg.svg" class="footer-contact-icon"
+                            alt="Business registration">
+                    </div>
+                    <span class="footer-contact-text">Business Registration: 559196-0207</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer-separator" aria-hidden="true"></div>
+
+        <section class="footer-copyright-container">
+            <span class="footer-copyright-text">© 2019 Punkfrog. All rights reserved</span>
+            <span class="footer-designer">Web designed by Laura Lundin</span>
+        </section>
+    </footer>
+
+    <div class="back-to-top-button" id="back-to-top-button" aria-hidden="true">
+        <a href="#hero-section" aria-label="Back to top">
+            <span aria-hidden="true">🔝</span>
+        </a>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
