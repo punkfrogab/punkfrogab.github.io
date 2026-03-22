@@ -839,7 +839,7 @@ main .enquiry-button:not(.catering-enquiry-button) {
 }
 
 .catering-underline {
-  margin-top: 1.2rem;
+  margin-top: 0.8rem;
 }
 
 .catering-tagline {
@@ -1120,6 +1120,7 @@ footer {
 .footer-contact-text {
   font-size: 0.95rem;
   color: #e0e0e0;
+  width: max-content;
 }
 
 /* Dotted separator between top and bottom */
