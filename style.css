@@ -916,11 +916,11 @@ main .enquiry-button:not(.catering-enquiry-button) {
   gap: 1.25rem;
   padding: 0 0.5rem;
   width: max-content;
-  animation: carousel-scroll-left 45s linear infinite;
+  animation: carousel-scroll-left 60s linear infinite;
 }
 
 .food-carousel-bottom-line .food-carousel-track-inner {
-  animation: carousel-scroll-right 50s linear infinite;
+  animation: carousel-scroll-right 60s linear infinite;
 }
 
 /* Pause when user hovers or has just scrolled */
