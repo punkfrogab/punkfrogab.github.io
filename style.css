@@ -883,6 +883,7 @@ main .enquiry-button:not(.catering-enquiry-button) {
   pointer-events: none;
 }
 
+/* Horizontal scroll: users can drag/scroll; autoplay is done in script.js (scrollLeft, not transform) */
 .food-carousel-track {
   display: flex;
   padding: 0.5rem;
@@ -950,6 +951,26 @@ main .enquiry-button:not(.catering-enquiry-button) {
   100% {
     transform: translateX(0);
   }
+}
+
+.food-carousel-scroll-hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0.5rem 0 0;
+  padding: 0 0.75rem 0.25rem;
+  text-align: center;
+  font-size: clamp(0.75rem, 1.85vw, 0.9rem);
+  letter-spacing: 0.04em;
+  color: rgba(255, 244, 236, 0.7);
+  font-weight: 500;
+}
+
+.food-carousel-scroll-hint__icon {
+  opacity: 0.65;
+  font-size: 1em;
+  line-height: 1;
 }
 
 .food-carousel-item {
@@ -1872,6 +1893,14 @@ body.nav-menu-open .hamburger-bar:nth-child(3) {
   .food-carousel-item img {
     width: 100px;
     height: 75px;
+  }
+
+  .food-carousel-track-inner {
+    gap: 0.5rem;
+  }
+
+  .food-carousel-wrapper {
+    padding-bottom: 0;
   }
 
   .caption-name {
