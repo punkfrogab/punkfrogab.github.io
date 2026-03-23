@@ -855,7 +855,7 @@ main .enquiry-button:not(.catering-enquiry-button) {
 /* Carousel container */
 .food-carousel-wrapper {
   position: relative;
-  width: 60%;
+  width: 100%;
   padding-bottom: 1rem;
   overflow: hidden;
   box-sizing: border-box;
