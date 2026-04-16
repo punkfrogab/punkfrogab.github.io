@@ -208,15 +208,13 @@
     trigger.setAttribute("aria-expanded", String(isExpanded));
     trigger.setAttribute(
       "aria-label",
-      isExpanded
-        ? "Hide frameworks and templates table"
-        : "Show frameworks and templates table",
+      isExpanded ? "Hide frameworks and tools" : "Show frameworks and tools",
     );
     content.setAttribute("aria-hidden", String(!isExpanded));
     if (triggerText)
       triggerText.textContent = isExpanded
-        ? "Hide Frameworks & Templates"
-        : "Frameworks & Templates";
+        ? "Hide Frameworks & Tools"
+        : "Frameworks & Tools";
   });
 })();
 
