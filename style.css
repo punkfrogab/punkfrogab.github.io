@@ -1476,12 +1476,10 @@ body.nav-menu-open .hamburger-bar:nth-child(3) {
     height: 56px;
   }
 
-  /* Hamburger dropdown */
   .hamburger-menu-panel {
     display: none;
     position: fixed;
-    top: 4.5rem;
-    right: 1rem;
+    top: 3rem;
     z-index: 1001;
     width: 220px;
     background: rgba(255, 255, 255, 0.98);
